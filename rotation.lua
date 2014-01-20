@@ -22,10 +22,10 @@ ProbablyEngine.rotation.register_custom(268, "|cFF32ff84Into the Brew|r", {
 -----------------------------------------------------------------------------------------------------------------------------
 	{ "115921", -- Legacy of the Emperor
     	{
-      	"!player.buff(117666)", -- Legacy of the Emperor Buff
-      	"!player.buff(1126)", -- Mark of the Wild
-      	"!player.buff(90363)", -- Embrace of the Shale Spider
-      	"!player.buff(20217)" -- Blessing of Kings
+      	"!player.buff(117666).any", -- Legacy of the Emperor Buff
+      	"!player.buff(1126).any", -- Mark of the Wild
+      	"!player.buff(90363).any", -- Embrace of the Shale Spider
+      	"!player.buff(20217).any" -- Blessing of Kings
     	}
  	},
 -----------------------------------------------------------------------------------------------------------------------------
@@ -193,10 +193,10 @@ ProbablyEngine.rotation.register_custom(268, "|cFF32ff84Into the Brew|r", {
  	{ "115315", "modifier.lcontrol", "ground" }, -- Black Ox Statue
 	{ "115921", -- Legacy of the Emperor
     	{
-      	"!player.buff(117666)", -- Legacy of the Emperor Buff
-      	"!player.buff(1126)", -- Mark of the Wild
-      	"!player.buff(90363)", -- Embrace of the Shale Spider
-      	"!player.buff(20217)" -- Blessing of Kings
+      	"!player.buff(117666).any", -- Legacy of the Emperor Buff
+      	"!player.buff(1126).any", -- Mark of the Wild
+      	"!player.buff(90363).any", -- Embrace of the Shale Spider
+      	"!player.buff(20217).any" -- Blessing of Kings
     	}
  	},
 },
