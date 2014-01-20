@@ -16,7 +16,7 @@ ProbablyEngine.rotation.register_custom(268, "|cFF32ff84Into the Brew|r", {
 -----------------------------------------------------------------------------------------------------------------------------
 	{ "pause", "modifier.lshift"},
  	{ "115180", "modifier.lalt", "ground" }, -- Dizzying Haze
- 	{ "115315", "modifier.rcontrol", "ground" }, -- Black Ox Statue
+ 	{ "115315", "modifier.lcontrol", "ground" }, -- Black Ox Statue
 -----------------------------------------------------------------------------------------------------------------------------
 -- Buffs -------------------------------------------------------------------------------------------------------------------- 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -106,7 +106,7 @@ ProbablyEngine.rotation.register_custom(268, "|cFF32ff84Into the Brew|r", {
 
    { "117368", "target.disarmable" }, -- Grapple Weapon
    -- Ring of Peace when Grapple Weapon debuff is not present, is on CD, and the target is in melee range
-   { "116844", { "!player.buff(123232)", "player.spell(117368).cooldown > 0", "target.range <= 5" }},
+   --{ "116844", { "!player.buff(123232)", "player.spell(117368).cooldown > 0", "target.range <= 5" }},
 
    { "137562", "player.state.disorient" }, -- 137562 = Nimble Brew
    { "137562", "player.state.fear" },
@@ -190,7 +190,7 @@ ProbablyEngine.rotation.register_custom(268, "|cFF32ff84Into the Brew|r", {
 -----------------------------------------------------------------------------------------------------------------------------
 {
 	{ "115180", "modifier.lalt", "ground" }, -- Dizzying Haze
- 	{ "115315", "modifier.rcontrol", "ground" }, -- Black Ox Statue
+ 	{ "115315", "modifier.lcontrol", "ground" }, -- Black Ox Statue
 	{ "115921", -- Legacy of the Emperor
     	{
       	"!player.buff(117666)", -- Legacy of the Emperor Buff
